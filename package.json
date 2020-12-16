@@ -2,10 +2,10 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start",
+    "dev": "NEXT_TELEMETRY_DEBUG=1 NEXT_TELEMETRY_DISABLED=1 next dev",
+    "build": "NEXT_TELEMETRY_DEBUG=1 NEXT_TELEMETRY_DISABLED=1 next build",
+    "export": "NEXT_TELEMETRY_DEBUG=1 NEXT_TELEMETRY_DISABLED=1 next export",
+    "start": "NEXT_TELEMETRY_DEBUG=1 NEXT_TELEMETRY_DISABLED=1 next start",
     "type-check": "tsc"
   },
   "dependencies": {
