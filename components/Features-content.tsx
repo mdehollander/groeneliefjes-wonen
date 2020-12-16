@@ -89,7 +89,7 @@ export default function Features_content() {
                             <span>Alles</span>
                             <div className="py-1 relative w-full">
                                     <div className="h-2 mx-2 bg-green-400 rounded-full">
-                                    <div className="tooltip absolute h-4 mx-2 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 top-0 cursor-pointer" unselectable="on" onselectstart="return false;" style={{left: "0%"}}>
+                                    <div className="tooltip absolute h-4 mx-2 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 top-0 cursor-pointer"  style={{left: "0%"}}>
                                         <div className="relative shadow-md tooltip-text">
                                             <div className="bg-white rounded py-1 px-4 my-2">
                                               <div className="px-6 py-4">
@@ -105,7 +105,7 @@ export default function Features_content() {
                                         </div>
                                     </div>
 
-                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer" unselectable="on" onselectstart="return false;" style={{left: "10.4839%"}}>
+                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer"  style={{left: "10.4839%"}}>
                                         <div className="relative shadow-md tooltip-text">
                                             <div className="bg-white rounded py-1 px-4 my-2">
                                               <div className="px-6 py-4">
@@ -121,7 +121,7 @@ export default function Features_content() {
                                         </div>
                                     </div>
 
-                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-blue-600 shadow border border-blue-600 -ml-2 top-0 cursor-pointer" unselectable="on" onselectstart="return false;" style={{left: "35.4839%"}}>
+                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-blue-600 shadow border border-blue-600 -ml-2 top-0 cursor-pointer"  style={{left: "35.4839%"}}>
                                             <div className="relative shadow-md tooltip-text">
                                                 <div className="bg-white rounded py-1 px-4 my-2">
                                                   <div className="px-6 py-4">
@@ -137,7 +137,7 @@ export default function Features_content() {
                                         </div>
                                     </div>
 
-                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer" unselectable="on" onselectstart="return false;" style={{left: "75%"}}>
+                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer"  style={{left: "75%"}}>
                                         <div className="relative shadow-md tooltip-text">
                                             <div className="bg-white rounded py-1 px-4 my-2">
                                               <div className="px-6 py-4">
@@ -152,7 +152,7 @@ export default function Features_content() {
                                         </div>
                                     </div>
 
-                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer" unselectable="on" onselectstart="return false;" style={{left: "97%"}}>
+                                    <div className="tooltip absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-400 -ml-2 top-0 cursor-pointer"  style={{left: "97%"}}>
                                         <div className="relative shadow-md tooltip-text">
                                             <div className="bg-white rounded py-1 px-4 my-2">
                                               <div className="px-6 py-4">

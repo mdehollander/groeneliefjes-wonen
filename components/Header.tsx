@@ -1,6 +1,6 @@
 import data from '../content/navigation.json'
 
-const navItems = data.map(({ id, href, label }) =>
+const navItems = data.map(({ href, label }) =>
   <div>
         <a href={href} className="mr-5 font-medium hover:text-gray-900">{label}</a>
      </div>
