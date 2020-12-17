@@ -24,7 +24,7 @@ export default function Features_content() {
 
 
                             <div className="p-12">
-                                <blockquote className="text-lg italic text-gray-800">
+                                <blockquote className="text-lg italic text-gray-800 text-justify">
                                     <div className="absolute -mt-2 -ml-2 pin-t pin-l">
                                         <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -227,7 +227,7 @@ export default function Features_content() {
                                 src="img/Tuin.JPG"
                                 alt="Portrait of Irene Sims, VP of Sales" />
                             <div className="p-12">
-                                <blockquote className="text-lg italic text-gray-800">
+                                <blockquote className="text-lg italic text-gray-800 text-justify">
                                     <div className="absolute -mt-2 -ml-2 pin-t pin-l">
                                         <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
