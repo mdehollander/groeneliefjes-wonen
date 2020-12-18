@@ -1,6 +1,5 @@
 import classNames from 'classnames'
 import { useState } from 'react'
-import Link from 'next/link'
 
 import data from '../content/navigation.json'
 
@@ -113,9 +112,9 @@ export default function Header() {
                     </div>
                   </div>
                 </nav>
-                {/*<nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
+                <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
                     { navItems }
-                </nav>*/}
+                </nav>
 {/*
                 <div id="nav-mobile-btn"
                     className="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
