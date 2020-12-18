@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async function({
 
     // Gets the Props
     return SetupContent(
-      'content/pages/home.json',
+      'content/pages/home2.json',
       preview,
       previewData,
     );
