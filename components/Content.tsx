@@ -19,7 +19,7 @@ export default function Content({
                         format="markdown"
                         imageProps={{
                             parse: (filename) => `images/${filename}`,
-                            directory: 'public/images/',
+                            directory: 'public/img/',
                         }}
                         sticky
                     >
