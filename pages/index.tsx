@@ -1,22 +1,29 @@
 
-import { InlineForm } from 'react-tinacms-inline';
-import { useCMS } from 'tinacms';
+import { InlineForm } from 'react-tinacms-inline'
+
+//Backend
+import { usePlugin } from "tinacms"
+import { useGithubJsonForm, useGithubToolbarPlugins } from "react-tinacms-github"
 
 import Setup from '../utils/setup';
 import SetupContent from '../utils/content';
+
 import Content from '../components/Content';
 import Layout from '../components/Layout'
 
+import Hero from "../components/hero/Hero"
+
 export default function Home({ file }) {
 
-    const {form, data} = Setup(file);
-    const cms = useCMS();
+    const [pageData, form] = useGithubJsonForm(file)
+    usePlugin(form)
+    useGithubToolbarPlugins()
 
     return (
         <InlineForm form={form}>
+          <Hero {...pageData} />
           <Layout title="Groeneliefjes | WoonDromen">
           </Layout>
-        <Content data={data} />
         </InlineForm>
     )
 }
@@ -28,7 +35,7 @@ export const getStaticProps: GetStaticProps = async function({
 
     // Gets the Props
     return SetupContent(
-      'content/pages/home2.json',
+      'content/pages/homepage.json',
       preview,
       previewData,
     );
