@@ -1,4 +1,5 @@
 
+import { GetStaticProps } from 'next'
 import { InlineForm } from 'react-tinacms-inline'
 
 //Backend
