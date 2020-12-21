@@ -5,9 +5,7 @@ import { InlineForm } from 'react-tinacms-inline'
 import { usePlugin } from "tinacms"
 import { useGithubJsonForm, useGithubToolbarPlugins } from "react-tinacms-github"
 
-import Setup from '../utils/setup';
 import SetupContent from '../utils/content';
-
 
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
