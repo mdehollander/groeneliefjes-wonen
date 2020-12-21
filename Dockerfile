@@ -29,7 +29,7 @@ ARG SIGNING_KEY=${SIGNING_KEY}
 
 WORKDIR /app
 
-COPY package.json next.config.js .env* ./
+#COPY package.json next.config.js .env* ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
