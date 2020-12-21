@@ -1,7 +1,7 @@
 import { getGithubPreviewProps, parseJson } from 'next-tinacms-github'
 
 
-export default async function SetupContent(jsonFile:string, preview:boolean, previewData:any) {
+export default async function SetupContent(jsonFile:string, preview:string, previewData:any) {
         if (preview) {
             return getGithubPreviewProps({
                 ...previewData,
