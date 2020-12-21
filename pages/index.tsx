@@ -7,7 +7,7 @@ import { useGithubJsonForm, useGithubToolbarPlugins } from "react-tinacms-github
 
 import SetupContent from '../utils/content';
 
-import React, { ReactNode } from 'react'
+import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/Header'
