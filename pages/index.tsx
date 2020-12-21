@@ -19,9 +19,9 @@ import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
-export default function Home({ file }) {
 
-    const [pageData, form] = useGithubJsonForm(file)
+export default function Home (props: any) {
+    const [pageData, form] = useGithubJsonForm(props.file)
     usePlugin(form)
     useGithubToolbarPlugins()
 
