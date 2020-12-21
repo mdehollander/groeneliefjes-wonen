@@ -24,7 +24,7 @@ library.add(fas) // Add all icons to the library so you can use it in your page
 export default class Site extends App {
   cms: TinaCMS
 
-  constructor(props) {
+  constructor(props: AppProps) {
     super(props)
 
     const github = new GithubClient({

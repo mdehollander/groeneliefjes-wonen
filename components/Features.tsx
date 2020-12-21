@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 
-import data from '../content/pages/home.json'
+import data from '../content/pages/kernwaarden.json'
 
 
 

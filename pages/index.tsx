@@ -8,10 +8,18 @@ import { useGithubJsonForm, useGithubToolbarPlugins } from "react-tinacms-github
 import Setup from '../utils/setup';
 import SetupContent from '../utils/content';
 
-import Content from '../components/Content';
-import Layout from '../components/Layout'
 
-import Hero from "../components/hero/Hero"
+import React, { ReactNode } from 'react'
+import Head from 'next/head'
+
+import Header from '../components/Header'
+import Hero from "../components/Hero"
+import Kernwaarden from '../components/Features'
+import Features_content from '../components/Features-content'
+import Inspiration from '../components/Inspiration'
+import Testimonial from '../components/Testimonial'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default function Home({ file }) {
 
@@ -20,11 +28,23 @@ export default function Home({ file }) {
     useGithubToolbarPlugins()
 
     return (
-        <InlineForm form={form}>
-          <Hero {...pageData} />
-          <Layout title="Groeneliefjes | WoonDromen">
-          </Layout>
-        </InlineForm>
+        <>
+            <Head>
+              <title>Groeneliefjes</title>
+              <meta charSet="utf-8" />
+              <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
+            <Header />
+            <InlineForm form={form}>
+                <Hero {...pageData} />
+            </InlineForm>
+            <Kernwaarden />
+            <Features_content />
+            <Inspiration />
+            <Testimonial />
+            <Contact />
+            <Footer />
+        </>
     )
 }
 
@@ -35,7 +55,7 @@ export const getStaticProps: GetStaticProps = async function({
 
     // Gets the Props
     return SetupContent(
-      'content/pages/homepage.json',
+      'content/pages/home.json',
       preview,
       previewData,
     );

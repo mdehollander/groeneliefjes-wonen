@@ -1,4 +1,4 @@
-import { TinaProvider, TinaCMS, useCMS } from 'tinacms';
+import { useCMS } from 'tinacms';
 
 function EditButton() {
   const cms = useCMS();
