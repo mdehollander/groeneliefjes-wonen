@@ -26,16 +26,13 @@ export default class Site extends App {
 
   constructor(props: AppProps) {
     super(props)
-
-    const ghclientid: string = (process.env.GITHUB_CLIENT_ID as string);
-    console.log(ghclientid);
-
+    
     const github = new GithubClient({
       proxy: '/api/proxy-github',
       authCallbackRoute: '/api/create-github-access-token',
-      clientId: ghclientid,
-      baseRepoFullName: process.env.REPO_FULL_NAME, // e.g: tinacms/tinacms.org,
-      baseBranch: process.env.BASE_BRANCH, // e.g. 'master' or 'main' on newer repos
+      clientId: process.env.GITHUB_CLIENT_ID as string,
+      baseRepoFullName: process.env.REPO_FULL_NAME as string, // e.g: tinacms/tinacms.org,
+      baseBranch: process.env.BASE_BRANCH as string, // e.g. 'master' or 'main' on newer repos
     })
 
     /**
