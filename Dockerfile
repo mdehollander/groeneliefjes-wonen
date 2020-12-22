@@ -21,10 +21,15 @@ RUN yarn build
 
 # Stage 2: And then copy over node_modules, etc from that stage to the smaller base image
 FROM mhart/alpine-node:base as production
+ARG GITHUB_CLIENT_ID=${GITHUB_CLIENT_ID}
+ARG BASE_REPO_FULL_NAME=${BASE_REPO_FULL_NAME}
+ARG GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET}
+ARG SIGNING_KEY=${SIGNING_KEY}
+
 
 WORKDIR /app
 
-# COPY package.json next.config.js .env* ./
+#COPY package.json next.config.js .env* ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
