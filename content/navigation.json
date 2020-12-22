@@ -1,18 +1,26 @@
 [
   {
+    "id": "Home",
     "label": "Home",
-    "href": "/"
+    "href": "/",
+    "external": false
   },
   {
+    "id": "kerwaarden",
     "label": "Kernwaarden",
-    "href": "/#kernwaarden"
+    "href": "/#kernwaarden",
+    "external": false
   },
   {
+    "id": "inspiratie",
     "label": "Inspiratie",
-    "href": "/#inspiratie"
+    "href": "/#inspiratie",
+    "external": false
   },
   {
+    "id": "contact",
     "label": "Contact",
-    "href": "/#contact"
+    "href": "/#contact",
+    "external": false
   }
 ]
