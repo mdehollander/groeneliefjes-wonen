@@ -1,12 +1,13 @@
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 
-import { InlineBlocks } from "react-tinacms-inline"
+import {  BlockTemplate } from 'tinacms'
 
 import {
+  InlineBlocks,
   BlockTextarea,
   BlocksControls,
-  BlockTemplate,
 } from "react-tinacms-inline"
 
 export default function Kernwaarden() {
