@@ -43,14 +43,14 @@ function SetupPoint({ data, index }:any) {
           <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
               <BlockTextarea
                 name="title"
-                placeholder="Product Name"
+                placeholder="Core Value"
                 focusRing={false}
               />
           </h2>
           <p className="leading-relaxed text-base">
               <BlockTextarea
                 name="description"
-                placeholder="Product Description"
+                placeholder="Description"
                 focusRing={false}
               />
           </p>
@@ -67,9 +67,11 @@ function SetupPoint({ data, index }:any) {
 }
 
 const setup_point_template: BlockTemplate = {
-  label: 'Setup Point',
+  label: 'Core Values',
   defaultItem: {
-    step: 'Make yourself a dang quesadilla',
+    title: 'Make yourself a dang quesadilla',
+    description: 'Bladibla',
+    icon: 'leaf'
   },
   fields: [],
 }
