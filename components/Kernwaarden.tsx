@@ -6,6 +6,7 @@ import { InlineBlocks } from "react-tinacms-inline"
 import {
   BlockTextarea,
   BlocksControls,
+  BlockTemplate,
 } from "react-tinacms-inline"
 
 export default function Kernwaarden() {
