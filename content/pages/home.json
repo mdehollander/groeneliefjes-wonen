@@ -32,7 +32,8 @@
         "_template": "setup_point",
         "step": "Make yourself a dang quesadilla",
         "title": "Samen dansen",
-        "description": "in de Natuur"
+        "description": "in de Natuur",
+        "icon": "leaf"
       }
     ]
   }
