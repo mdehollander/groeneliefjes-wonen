@@ -4,14 +4,8 @@ import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { InlineBlocks } from "react-tinacms-inline"
 
 import {
-  InlineText,
-  InlineTextarea,
-  InlineField,
   BlockTextarea,
   BlocksControls,
-  InlineImage,
-  Block,
-  BlockComponentProps,
 } from "react-tinacms-inline"
 
 export default function Kernwaarden() {
