@@ -2,32 +2,38 @@
   "subtitle": "Hoi! Even voorstellen. Wij zijn Wilma & Mattias.  Wij dromen van een woonplek, waar we samen met elkaar leven, bidden, delen. Door samen te leven met anderen willen we waarden delen als echte interesse en klaarstaan voor elkaar, en samen de reis van het leven (een stukje) delen. Ook denken we dat we samen met anderen meer zijn dan alleen. Samen gastvrijheid delen, samen bidden, samen duurzaam leven. Door dit samen te doen kun je inspiratie delen, lasten delen en elkaar scherp en liefdevol houden.",
   "title": "Woon Dromen",
   "kernwaarden": {
-   "headline": "Make your site editable in five minutes.",
-   "features": [
-     {
-       "_template": "setup_point",
-       "title": "Leven delen",
-       "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-       "icon": "hand-holding-heart"
-     },
-     {
-       "_template": "setup_point",
-       "title": "Samen bidden",
-       "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-       "icon": "praying-hands"
-     },
-     {
-       "_template": "setup_point",
-       "title": "Radicale gastvrijheid",
-       "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-       "icon": "users"
-     },
-     {
-       "_template": "setup_point",
-       "title": "Leven met de natuur",
-       "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-       "icon": "leaf"
-     }
-   ]
+    "headline": "Make your site editable in five minutes.",
+    "features": [
+      {
+        "_template": "setup_point",
+        "title": "Leven delen",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "hand-holding-heart"
+      },
+      {
+        "_template": "setup_point",
+        "title": "Samen bidden",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "praying-hands"
+      },
+      {
+        "_template": "setup_point",
+        "title": "Radicale gastvrijheid",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "users"
+      },
+      {
+        "_template": "setup_point",
+        "title": "Leven met de natuur",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "leaf"
+      },
+      {
+        "_template": "setup_point",
+        "step": "Make yourself a dang quesadilla",
+        "title": "Samen dansen",
+        "description": "in de Natuur"
+      }
+    ]
   }
 }
