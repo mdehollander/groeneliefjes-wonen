@@ -26,7 +26,7 @@ export default function Kernwaarden() {
 }
 
 
-function SetupPoint({ data, index }) {
+function SetupPoint({ data:any, index:any }) {
   return (
     <>
     <BlocksControls index={index}>
