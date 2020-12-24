@@ -1,4 +1,4 @@
-import { InlineTextarea } from "react-tinacms-inline"
+import {InlineText, InlineTextarea } from "react-tinacms-inline"
 
 export default function Hero() {
 
@@ -10,7 +10,7 @@ export default function Hero() {
                 <div className="flex items-center w-full h-full">
                     <div className="max-w-xs p-4 text-sm text-right sm:max-w-xl sm:p-10 sm:text-base lg:max-w-2xl">
                         <h1 className="mb-10 -mr-12 text-2xl font-bold leading-tight text-white sm:-mr-20 sm:text-3xl md:text-4xl lg:text-5xl">
-                            <InlineTextarea name="title" />
+                            <InlineText name="title" />
                         </h1>
                         <p className="mb-10 lg:pl-32">
                             <InlineTextarea name="subtitle" />
