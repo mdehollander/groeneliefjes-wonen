@@ -3,9 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import data from '../content/navigation.json'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 const navItems = data.map(({ href, label }) =>
      <li className="nav-item">
-       <a className="mr-5 font-medium hover:text-gray-900" href={href}>{label}</a>
+       <AnchorLink className="mr-5 font-medium hover:text-gray-900" href={href}>{label}</AnchorLink>
      </li>
 );
 
