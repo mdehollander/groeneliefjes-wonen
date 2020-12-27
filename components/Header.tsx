@@ -1,6 +1,7 @@
 import classNames from 'classnames'
 import { useState } from 'react'
 
+import NavBar from './NavBar'
 import data from '../content/navigation.json'
 
 const navItems = data.map(({ href, label }) =>
@@ -24,98 +25,13 @@ export default function Header() {
                             fill-rule="nonzero" /></svg>
                 </a>
 
-                <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
-                      <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        {/* <!-- Mobile menu button--> */}
-                        <button
-                          onClick={() => setIsNavBarOpen(!isNavBarOpen)}
-                          className="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                          aria-expanded={isNavBarOpen}
-                        >
-                          <span className="sr-only">Open main menu</span>
-                          {/* Icon when menu is closed. */}
-                          <svg
-                            className={classNames(
-                              'w-6 h-6',
-                              isNavBarOpen ? 'hidden' : 'block'
-                            )}
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M4 6h16M4 12h16M4 18h16"
-                            />
-                          </svg>
-                          {/* Icon when menu is open. */}
-                          <svg
-                            className={classNames(
-                              'w-6 h-6',
-                              isNavBarOpen ? 'block' : 'hidden'
-                            )}
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M6 18L18 6M6 6l12 12"
-                            />
-                          </svg>
-                        </button>
-                      </div>
-                      <div className="flex items-center justify-start flex-1 ml-12 sm:items-stretch">
-                        <div className="hidden sm:block sm:ml-6">
-                          <div className="flex space-x-4">
-                            <a
-                              href="#"
-                              className="px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-md"
-                            >
-                              Dashboard
-                            </a>
-                            <a
-                              href="#"
-                              className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                            >
-                              Team
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                <NavBar />
 
-
-                  <div
-                    className={classNames('sm:hidden', isNavBarOpen ? 'block' : 'hidden')}
-                  >
-                    <div className="px-2 pt-2 pb-3 space-y-1">
-                      <a
-                        href="#"
-                        className="block px-3 py-2 text-base font-medium text-white bg-gray-900 rounded-md"
-                      >
-                        Dashboard
-                      </a>
-                      <a
-                        href="#"
-                        className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                      >
-                        Team
-                      </a>
-                    </div>
-                  </div>
-                </nav>
+{/*
                 <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
                     { navItems }
                 </nav>
-{/*
+
                 <div id="nav-mobile-btn"
                     className="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
                     <span className="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
