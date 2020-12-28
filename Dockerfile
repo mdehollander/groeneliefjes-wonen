@@ -12,7 +12,7 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 
 # Add libvips
-RUN apk add --upgrade --no-cache vips-dev build-base --repository https://alpine.global.ssl.fastly.net/alpine/v3.10/community/
+# RUN apk add --upgrade --no-cache vips-dev build-base --repository https://alpine.global.ssl.fastly.net/alpine/v3.10/community/
 
 # Install Dependncies
 RUN yarn install --frozen-lockfile
