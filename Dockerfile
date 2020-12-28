@@ -16,8 +16,12 @@ RUN yarn install --frozen-lockfile
 COPY . .
 
 RUN yarn build
-#RUN yarn install --production --frozen-lockfile
 
+# Install sharp with npm
+RUN npm install --unsafe-perm
+RUN npm install --verbose sharp
+
+#RUN yarn install --production --frozen-lockfile
 
 # Stage 2: And then copy over node_modules, etc from that stage to the smaller base image
 FROM mhart/alpine-node:base as production
