@@ -1,31 +1,37 @@
-import {InlineText, InlineTextarea } from "react-tinacms-inline"
+import {InlineText, InlineTextarea, InlineImage } from "react-tinacms-inline"
 
 export default function Hero() {
 
   return (
     <>
-    <div className="flex">
-        <section className="grid grid-cols-3 text-gray-900 bg-green-500 sm:grid-cols-2">
-            <div className="z-10 h-full col-span-2 sm:col-span-1 place-self-end">
-                <div className="flex items-center w-full h-full">
-                    <div className="max-w-xs p-4 text-sm text-right sm:max-w-xl sm:p-10 sm:text-base lg:max-w-2xl">
-                        <h1 className="mb-10 -mr-12 text-2xl font-bold leading-tight text-white sm:-mr-20 sm:text-3xl md:text-4xl lg:text-5xl">
-                            <InlineText name="title" />
-                        </h1>
-                        <p className="mb-10 lg:pl-32">
-                            <InlineTextarea name="subtitle" />
-                        </p>
-                        <a href="#" className="px-1 pb-1 font-semibold uppercase transition-colors duration-500 border-b-4 border-gray-800 text-md hover:border-green-700 hover:text-white">Droom jij ook van zo’n plek? Lees dan hier verder!</a>
-                    </div>
-                </div>
+    <section className="text-gray-900 bg-green-500 body-font">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+              <InlineText name="title" />
+          </h1>
+          <p className="mb-8 leading-relaxed">
+              <InlineTextarea name="subtitle" />
+          </p>
+          <div className="flex justify-center">
+              Droom jij ook van zo’n plek? <a href="#kernwaarden" classNameName="px-1 pb-1 font-semibold uppercase transition-colors duration-500 border-b-4 border-gray-800 text-md hover:border-green-700 hover:text-white">Lees dan verder!</a>
+          </div>
+        </div>
+        <InlineImage
+          name="hero"
+          parse={media => `/img/${media.filename}`}
+          uploadDir={() => '/public/img/'}
+          focusRing={false}
+        >
+          {props => (
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img className="object-cover object-center rounded-full" src={props.src} alt={props.alt} />
             </div>
-            <div className="min-h-full">
-                <img className="object-cover w-full h-full"
-                    src="https://images.unsplash.com/photo-1559941727-6fb446e7e8ae?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=3936&h=2624&fit=crop&ixid=eyJhcHBfaWQiOjF9"
-                    alt="Food delivery worker on a bycicle" />
-            </div>
-        </section>
-    </div>
+          )}
+        </InlineImage>
+
+      </div>
+    </section>
     </>
   )
 }

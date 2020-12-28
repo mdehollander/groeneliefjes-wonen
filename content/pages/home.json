@@ -1,6 +1,10 @@
 {
   "subtitle": "Hoi! Even voorstellen. Wij zijn Wilma & Mattias.  Wij dromen van een woonplek, waar we samen met elkaar leven, bidden, delen. Door samen te leven met anderen willen we waarden delen als echte interesse en klaarstaan voor elkaar, en samen de reis van het leven (een stukje) delen. Ook denken we dat we samen met anderen meer zijn dan alleen. Samen gastvrijheid delen, samen bidden, samen duurzaam leven. Door dit samen te doen kun je inspiratie delen, lasten delen en elkaar scherp en liefdevol houden.",
   "title": "Woon Dromen",
+  "hero": {
+   "src": "img/samen.jpg",
+   "alt": "Hero"
+  },
   "kernwaarden": {
     "title": "Kernwaarden",
     "headline": "Make your site editable in five minutes.",
