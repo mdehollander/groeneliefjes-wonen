@@ -12,7 +12,7 @@ const navItems = data.map(({ href, label }) =>
 );
 
 
-export default function Navbar({ fixed }) {
+export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>

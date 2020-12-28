@@ -1,18 +1,6 @@
-import classNames from 'classnames'
-import { useState } from 'react'
-
 import NavBar from './NavBar'
-import data from '../content/navigation.json'
-
-const navItems = data.map(({ href, label }) =>
-     <div>
-        <a href={href} className="mr-5 font-medium hover:text-gray-900">{label}</a>
-     </div>
-);
-
 
 export default function Header() {
-  const [isNavBarOpen, setIsNavBarOpen] = useState(false)
   return (
     <>
         <header className="relative z-50 w-full h-17">
@@ -33,17 +21,6 @@ export default function Header() {
 
                 <NavBar />
 
-{/*
-                <nav className="flex flex-wrap items-center justify-center pl-24 text-base md:ml-auto md:mr-auto">
-                    { navItems }
-                </nav>
-
-                <div id="nav-mobile-btn"
-                    className="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
-                    <span className="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
-                    <span className="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
-                </div>
-            */}
             </div>
         </header>
     </>
