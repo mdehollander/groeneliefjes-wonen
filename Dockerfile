@@ -15,7 +15,7 @@ COPY package.json yarn.lock ./
 RUN apk add --upgrade --no-cache vips-dev build-base --repository https://alpine.global.ssl.fastly.net/alpine/v3.10/community/
 
 # Install Dependncies
-RUN yarn install --production --pure-lockfile --non-interactive
+RUN yarn install --frozen-lockfile
 
 # RUN yarn install --frozen-lockfile
 
