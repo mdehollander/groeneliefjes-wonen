@@ -1,5 +1,7 @@
 import {InlineText, InlineTextarea, InlineImage } from "react-tinacms-inline"
 
+import Image from 'next/image'
+
 export default function Hero() {
 
   return (
@@ -25,7 +27,7 @@ export default function Hero() {
               focusRing={false}
             >
               {props => (
-                  <img className="object-cover object-center rounded-full" src={props.src} alt={props.alt} />
+                  <Image className="object-cover object-center rounded-full" src={props.src} alt={props.alt} width="500" height="500" />
               )}
             </InlineImage>
         </div>
