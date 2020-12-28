@@ -11,15 +11,18 @@ WORKDIR /app
 
 COPY package.json yarn.lock ./
 
-RUN yarn install --frozen-lockfile
+# Add libvips
+RUN apk add --upgrade --no-cache vips-dev build-base --repository https://alpine.global.ssl.fastly.net/alpine/v3.10/community/
+
+# Install Dependncies
+RUN yarn install --production --ignore-optional --pure-lockfile --non-interactive
+
+# RUN yarn install --frozen-lockfile
 
 COPY . .
 
 RUN yarn build
 
-# Install sharp with npm
-RUN npm install --unsafe-perm
-RUN npm install --verbose sharp
 
 #RUN yarn install --production --frozen-lockfile
 
