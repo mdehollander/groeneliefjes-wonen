@@ -10,25 +10,29 @@
         "_template": "setup_point",
         "title": "Leven delen",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "hand-holding-heart"
+        "icon": "hand-holding-heart",
+        "link": "#delen"
       },
       {
         "_template": "setup_point",
         "title": "Samen bidden",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "praying-hands"
+        "icon": "praying-hands",
+        "link": "#bidden"
       },
       {
         "_template": "setup_point",
         "title": "Leven met de natuur",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "leaf"
+        "icon": "leaf",
+        "link": "#natuur"
       },
       {
         "_template": "setup_point",
         "title": "Radicale gastvrijheid",
         "description": "Blue bottle crucifix viost-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "users"
+        "icon": "users",
+        "link": "#gastvrijheid"
       }
     ]
   }

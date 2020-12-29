@@ -19,7 +19,8 @@ config.autoAddCss = false // Tell Font Awesome to skip adding the CSS automatica
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-library.add(fas) // Add all icons to the library so you can use it in your page
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fas,fab) // Add all icons to the library so you can use it in your page
 
 export default class Site extends App {
   cms: TinaCMS

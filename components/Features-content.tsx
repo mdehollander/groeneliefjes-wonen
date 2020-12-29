@@ -1,17 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faPeopleCarry } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { faHandsHelping } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { faUserFriends } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { faPaw } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { faLeaf } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
-import { faCarrot } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
 import Image from 'next/image'
 
 export default function Features_content() {
   return (
     <>
-        <div className="bg-gray-100">
+        <div id="gastvrijheid" className="bg-gray-100">
             <div className="max-w-6xl px-6 py-8 mx-auto md:px-12">
                 <h2 className="text-2xl mb-4 text-center font-bold text-gray-900">Radicale Gastvrijheid</h2>
                 <div className="items-center -mx-6 md:flex md:-mx-12">
@@ -47,7 +41,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faPeopleCarry}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="people-carry"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">
@@ -61,7 +55,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faHandsHelping}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="hands-helping"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">
@@ -74,7 +68,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faUserFriends}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="user-friends"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">
@@ -179,7 +173,7 @@ export default function Features_content() {
             </div>
         </div>
         {/* features content */}
-        <div className="bg-gray-100">
+        <div id="natuur" className="bg-gray-100">
             <div className="max-w-6xl px-6 py-8 mx-auto md:px-12">
                 <div className="items-center -mx-6 md:flex md:-mx-12">
                     <div className="w-full px-6 md:w-1/2 md:px-12">
@@ -187,7 +181,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faPaw}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="paw"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">
@@ -201,7 +195,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faLeaf}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="leaf"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">
@@ -214,7 +208,7 @@ export default function Features_content() {
                         <div className="flex mt-10">
                             <div>
                                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <FontAwesomeIcon  icon={faCarrot}></FontAwesomeIcon>
+                                    <FontAwesomeIcon  icon="carrot"></FontAwesomeIcon>
                                 </svg>
                             </div>
                             <div className="mt-2 ml-4">

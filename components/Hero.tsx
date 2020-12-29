@@ -2,6 +2,9 @@ import {InlineText, InlineTextarea, InlineImage } from "react-tinacms-inline"
 
 import Image from 'next/image'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
 export default function Hero() {
 
   return (
@@ -15,8 +18,8 @@ export default function Hero() {
           <p className="mb-8 leading-relaxed">
               <InlineTextarea name="subtitle" />
           </p>
-          <div className="flex justify-center">
-              Droom jij ook van zo’n plek? <a href="#kernwaarden" className="px-1 pb-1 font-semibold uppercase transition-colors duration-500 border-b-4 border-gray-800 text-md hover:border-green-700 hover:text-white">Lees dan verder!</a>
+          <div className="flex justify-center">Droom jij ook van zo’n plek?
+              <AnchorLink className="px-1 pb-1 font-semibold uppercase transition-colors duration-500 border-b-4 border-gray-800 text-md hover:border-green-700 hover:text-white" href="#kernwaarden">Lees dan verder!</AnchorLink>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

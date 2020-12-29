@@ -2,7 +2,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 
-import {  BlockTemplate } from 'tinacms'
+import { BlockTemplate } from 'tinacms'
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 import {
   InlineText,
@@ -56,11 +59,11 @@ function SetupPoint({ data, index }:any) {
                 focusRing={false}
               />
           </p>
-          <a className="mt-3 text-green-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <AnchorLink className="mt-3 text-green-500 inline-flex items-center" href={data.link}>Lees verder
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+          </AnchorLink>
         </div>
       </div>
     </BlocksControls>
@@ -73,7 +76,8 @@ const setup_point_template: BlockTemplate = {
   defaultItem: {
     title: 'Make yourself a dang quesadilla',
     description: 'Bladibla',
-    icon: 'leaf'
+    icon: 'leaf',
+    link: "delen"
   },
   fields: [],
 }
