@@ -27,7 +27,7 @@ export default function Hero() {
               focusRing={false}
             >
               {props => (
-                  <Image className="object-cover object-center rounded-full" src={props.src as string} width="500" height="500" />
+                  <Image loading="eager" className="object-cover object-center rounded-full" src={props.src as string} alt="hero" width="500" height="500" />
               )}
             </InlineImage>
         </div>

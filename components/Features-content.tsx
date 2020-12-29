@@ -6,6 +6,7 @@ import { faPaw } from "@fortawesome/free-solid-svg-icons"; // import the icons y
 import { faLeaf } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import { faCarrot } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
+import Image from 'next/image'
 
 export default function Features_content() {
   return (
@@ -18,8 +19,8 @@ export default function Features_content() {
                         <div className="overflow-hidden bg-white rounded-lg shadow-xl">
 
                             <div className="flex w-full relative">
-                                <img loading="lazy" src="img/Fritz Eichenberg Lords supper.jpg" alt="Lords Supper" />
-                                    <div className="text-xs italic text-gray-600 absolute pt-3 md:pt-0 bottom-0 right-0 -my-5 mr-3">"The Last Supper" van Fritz Eichenberg</div>
+                                <Image loading="lazy" src="/img/Fritz Eichenberg Lords supper.jpg" alt="lords supper" width="600" height="400" />
+                                <div className="text-xs italic text-gray-600 absolute pt-3 md:pt-0 bottom-0 right-0 -my-5 mr-3">"The Last Supper" van Fritz Eichenberg</div>
                              </div>
 
 
@@ -223,9 +224,7 @@ export default function Features_content() {
                     </div>
                     <div className="w-full px-10 mt-16 md:w-1/2 md:mt-0">
                         <div className="overflow-hidden bg-white rounded-lg shadow-xl">
-                            <img className="w-full" loading="lazy"
-                                src="img/Tuin.JPG"
-                                alt="Portrait of Irene Sims, VP of Sales" />
+                            <Image loading="lazy" src="/img/Tuin.JPG" alt="tuin" width="600" height="400" />
                             <div className="p-12">
                                 <blockquote className="text-lg italic text-gray-800 text-justify">
                                     <div className="absolute -mt-2 -ml-2 pin-t pin-l">
