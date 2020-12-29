@@ -53,7 +53,6 @@ export default function Footer() {
             </span>
           </div>
         </footer>
-        <script type="text/javascript" src="js/nav.js"></script>
     </>
   )
 }
