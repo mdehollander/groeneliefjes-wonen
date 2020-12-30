@@ -5,7 +5,7 @@ export default function Header() {
     <>
         <header className="relative z-50 w-full h-17">
             <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
-                <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
+                <a href="/" className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
                     <svg
                       className="w-auto h-8 text-green-900 fill-current"
                       version="1.1"
