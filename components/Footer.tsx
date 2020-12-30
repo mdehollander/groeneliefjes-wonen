@@ -22,7 +22,7 @@ export default function Footer() {
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                       <FontAwesomeIcon icon={["fab", "creative-commons"]} />
                 </svg>
-                <a href="https://github.com/mdehollander" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank" alt="github-link">@biomatt</a>
+                <a href="https://github.com/mdehollander" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@biomatt</a>
                 </span>
             </p>
             <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
