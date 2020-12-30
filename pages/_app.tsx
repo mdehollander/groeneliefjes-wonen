@@ -10,6 +10,9 @@ import {
   GithubMediaStore,
 } from 'react-tinacms-github'
 
+import { DefaultSeo } from 'next-seo'
+import data from '../content/siteConfig.json'
+
 import { AppProps } from 'next/app'
 
 // https://github.com/FortAwesome/react-fontawesome#nextjs
@@ -75,6 +78,22 @@ export default class Site extends App {
            * 6. Add a button for entering Preview/Edit Mode
            */}
        {/*<EditLink cms={this.cms} />*/}
+           <DefaultSeo
+             title={data.seoDefaultTitle}
+             titleTemplate={'%s | ' + data.title}
+             description={data.description}
+             openGraph={{
+               type: 'website',
+               locale: 'nl_NL',
+               url: data.siteUrl,
+               site_name: data.title,
+             }}
+             twitter={{
+               handle: data.social.twitterHandle,
+               site: data.social.twitterHandle,
+               cardType: 'summary_large_image',
+             }}
+           />
           <Component {...pageProps} />
         </TinacmsGithubProvider>
       </TinaProvider>

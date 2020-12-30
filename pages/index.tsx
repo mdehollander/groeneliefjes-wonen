@@ -2,6 +2,8 @@
 import { GetStaticProps } from 'next'
 import { InlineForm } from 'react-tinacms-inline'
 
+import { DefaultSeo } from 'next-seo'
+
 //Backend
 import { usePlugin } from "tinacms"
 import { useGithubJsonForm, useGithubToolbarPlugins } from "react-tinacms-github"
@@ -36,6 +38,7 @@ export default function Home (props: any) {
             </Head>
             <Header />
             <InlineForm form={form}>
+                <DefaultSeo titleTemplate={pageData.title + ' | %s'} />
                 <Hero {...pageData} />
                 <Kernwaarden />
             </InlineForm>
