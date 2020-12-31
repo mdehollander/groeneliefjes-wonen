@@ -11,6 +11,7 @@ import {
 } from 'react-tinacms-github'
 
 import { DefaultSeo } from 'next-seo'
+import OrganizationJsonLd from '../components/JsonLdOrganization'
 import data from '../content/siteConfig.json'
 
 import { AppProps } from 'next/app'
@@ -93,6 +94,10 @@ export default class Site extends App {
                site: data.social.twitterHandle,
                cardType: 'summary_large_image',
              }}
+           />
+           <OrganizationJsonLd
+             organizationName={data.seoDefaultTitle}
+             url="https://www.groeneliefjes.nl"
            />
           <Component {...pageProps} />
         </TinacmsGithubProvider>

@@ -21,7 +21,6 @@ import Inspiration from '../components/Inspiration'
 import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-
 import Kernwaarden from "../components/Kernwaarden"
 
 export default function Home (props: any) {

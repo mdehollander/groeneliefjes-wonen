@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Inspiration() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Inspiration() {
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="bg-gray-100 p-6 rounded-lg">
-                  <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
+                  <Image className="h-40 rounded w-full object-cover object-center mb-6" loading="lazy" src="/img/noelhuis.png" alt="noelhuis" width="600" height="400" />
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Jeannette Noëlhuis</h2>
                   <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                 </div>
