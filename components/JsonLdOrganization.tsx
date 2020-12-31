@@ -21,8 +21,7 @@ const OrganizationJsonLd: FC<OrganizationJsonLdProps> = ({
     "@type": "Project",
     "name": "${organizationName}",
     "url": "${url}",
-    "logo": "${logo}",
-    }
+    "logo": "${logo}"
   }`;
 
   return (
