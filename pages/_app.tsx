@@ -29,6 +29,7 @@ library.add(fas,fab) // Add all icons to the library so you can use it in your p
 export default class Site extends App {
   cms: TinaCMS
 
+
   constructor(props: AppProps) {
     super(props)
 
@@ -65,6 +66,7 @@ export default class Site extends App {
 
   render() {
     const { Component, pageProps } = this.props
+
     return (
       /**
        * 5. Wrap the page Component with the Tina and Github providers
