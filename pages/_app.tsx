@@ -26,7 +26,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas,fab) // Add all icons to the library so you can use it in your page
 
-import { init } from "@socialgouv/matomo-next";
+import init from "@socialgouv/matomo-next";
 
 export default class Site extends App {
   cms: TinaCMS
