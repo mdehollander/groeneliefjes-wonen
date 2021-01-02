@@ -26,9 +26,15 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas,fab) // Add all icons to the library so you can use it in your page
 
+import { init } from "@socialgouv/matomo-next";
+
 export default class Site extends App {
   cms: TinaCMS
 
+  // Init Matomo
+  componentDidMount() {
+    init({ url: process.env.MATOMO_URL as string, siteId: process.env.MATOMO_SITE_ID as string});
+  }
 
   constructor(props: AppProps) {
     super(props)
