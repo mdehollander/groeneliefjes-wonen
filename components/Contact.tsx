@@ -22,7 +22,7 @@ export default function Contact() {
                     <h3 className="text-2xl font-extrabold text-white">Wil je iets met ons iets  of in contact komen?</h3>
                 </div>
                 <div className="flex p-2 lg:p-4 xl:p-4">
-                <a class="mailgo" data-address="mattiasenwilma" data-domain="groeneliefjes.nl" href="">
+                <a href="" class="mailgo" data-address="mattiasenwilma" data-domain="groeneliefjes.nl">
                         <button className="flex px-6 py-3 text-white bg-indigo-500 rounded-md hover:bg-indigo-600 hover:text-white focus:outline-none focus:shadow-outline focus:border-indigo-300" type="submit">
                         <svg className="self-center h-4 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 24 24"  data-type="glyph" data-name="email-83">
                             <FontAwesomeIcon  icon={faEnvelope}></FontAwesomeIcon>
