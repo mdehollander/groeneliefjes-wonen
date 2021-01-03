@@ -2,10 +2,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 
-import { BlockTemplate } from 'tinacms'
-
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+import { BlockTemplate } from 'tinacms'
 
 import {
   InlineText,
@@ -26,14 +25,33 @@ export default function Kernwaarden() {
                 <div className="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
               </div>
             </div>
-            <InlineBlocks className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4" name="kernwaarden.features" blocks={SETUP_POINT_BLOCKS}/>
+            <InlineBlocks className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4" name="kernwaarden.features" blocks={SETUP_KERNWAARDEN}/>
         </div>
       </section>
   )
 }
 
+const setup_kernwaarden_template: BlockTemplate = {
+  label: 'Core Values',
+  defaultItem: {
+    title: 'Make yourself a dang quesadilla',
+    description: 'Bladibla',
+    icon: 'leaf',
+    link: "delen"
+  },
+  fields: [],
+}
 
-function SetupPoint({ data, index }:any) {
+const SETUP_KERNWAARDEN = {
+  setup_point: {
+    Component: SetupKernwaarden,
+    template: setup_kernwaarden_template,
+  },
+}
+
+
+
+function SetupKernwaarden({ data, index }:any) {
   return (
     <>
     <BlocksControls index={index}>
@@ -69,22 +87,4 @@ function SetupPoint({ data, index }:any) {
     </BlocksControls>
     </>
   );
-}
-
-const setup_point_template: BlockTemplate = {
-  label: 'Core Values',
-  defaultItem: {
-    title: 'Make yourself a dang quesadilla',
-    description: 'Bladibla',
-    icon: 'leaf',
-    link: "delen"
-  },
-  fields: [],
-}
-
-const SETUP_POINT_BLOCKS = {
-  setup_point: {
-    Component: SetupPoint,
-    template: setup_point_template,
-  },
 }

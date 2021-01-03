@@ -35,5 +35,39 @@
         "link": "#gastvrijheid"
       }
     ]
+  },
+  "inspiration": {
+    "title": "Inspirerende plekken",
+    "headline": "Waarom kijken we naar andere plekken?",
+    "places": [
+      {
+        "_template": "setup_place",
+        "title": "Dorothy Gemeenschap",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "image": "hand-holding-heart",
+        "link": "https://www.dorothygemeenschap.nl"
+      },
+      {
+        "_template": "setup_place",
+        "title": "Jeannette Noëlhuis",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "image": "praying-hands",
+        "link": "#bidden"
+      },
+      {
+        "_template": "setup_place",
+        "title": "Leven met de natuur",
+        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "leaf",
+        "link": "#natuur"
+      },
+      {
+        "_template": "setup_place",
+        "title": "Radicale gastvrijheid",
+        "description": "Blue bottle crucifix viost-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "icon": "users",
+        "link": "#gastvrijheid"
+      }
+    ]
   }
 }

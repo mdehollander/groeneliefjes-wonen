@@ -15,7 +15,6 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import Hero from "../components/Hero"
-//import Kernwaarden from '../components/Features'
 import Features_content from '../components/Features-content'
 import Inspiration from '../components/Inspiration'
 import Testimonial from '../components/Testimonial'
@@ -40,12 +39,13 @@ export default function Home (props: any) {
                 <DefaultSeo titleTemplate={pageData.title + ' | %s'} />
                 <Hero {...pageData} />
                 <Kernwaarden />
+                <Features_content />
+                <Inspiration />
+                <Testimonial />
+                <Contact />
+                <Footer />
             </InlineForm>
-            <Features_content />
-            <Inspiration />
-            <Testimonial />
-            <Contact />
-            <Footer />
+
         </>
     )
 }
