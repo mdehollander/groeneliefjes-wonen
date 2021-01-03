@@ -49,7 +49,7 @@ const SETUP_INSPIRATION = {
 
 
 
-function SetupInspiration({ data, index }:any) {
+function SetupInspiration({ index }:any) {
   return (
     <>
     <BlocksControls index={index}>
