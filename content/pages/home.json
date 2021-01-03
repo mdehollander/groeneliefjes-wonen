@@ -56,16 +56,16 @@
       },
       {
         "_template": "setup_place",
-        "title": "Leven met de natuur",
+        "title": "De Wonne",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "leaf",
+        "image": "leaf",
         "link": "#natuur"
       },
       {
         "_template": "setup_place",
         "title": "Radicale gastvrijheid",
         "description": "Blue bottle crucifix viost-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "icon": "users",
+        "image": "users",
         "link": "#gastvrijheid"
       }
     ]
