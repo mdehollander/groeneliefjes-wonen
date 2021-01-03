@@ -38,35 +38,56 @@
   },
   "inspiration": {
     "title": "Inspirerende plekken",
-    "headline": "Waarom kijken we naar andere plekken?",
+    "headline": "In onze zoektocht naar wat bij ons past zijn we allerlei inspirerende plekken tegengekomen. Hieronder een aantal gemeenschappen die meer of minder met elkaar samenleven. De kernwoorden geven aan wat ons inspireert aan de gemeenschap.",
     "places": [
       {
         "_template": "setup_place",
         "title": "Dorothy Gemeenschap",
-        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "description": "Catholic workers, buiten de stad, gemeenschap, (droom voor) radicale gastvrijheid, vrienden, samen bidden, duurzaamheid, actie voeren, van droom tot realiteit.",
         "image": "/img/noelhuis.png",
         "link": "https://www.dorothygemeenschap.nl"
       },
       {
         "_template": "setup_place",
         "title": "Jeannette Noëlhuis",
-        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "description": "Catholic workers, ongedocumenteerde vluchtelingen, gemeenschap, samen bidden, actie voeren, vrienden.",
         "image": "/img/noelhuis.png",
         "link": "#bidden"
       },
       {
         "_template": "setup_place",
         "title": "De Wonne",
-        "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "description": "Radicale gastvrijheid, samen bidden, fijn huis, klaarstaan voor mensen op straat, gemeenschap.",
         "image": "/img/noelhuis.png",
         "link": "#natuur"
       },
       {
         "_template": "setup_place",
-        "title": "Radicale gastvrijheid",
-        "description": "Blue bottle crucifix viost-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
+        "title": "Iewan",
+        "description": "Duurzame bouw, samen delen, van droom tot realiteit, mooie gebouw.",
         "image": "/img/noelhuis.png",
         "link": "#gastvrijheid"
+      },
+      {
+        "_template": "setup_place",
+        "title": "Arneco",
+        "description": "Van droom tot realiteit, mooie plek, duurzaam.",
+        "image": "leaf",
+        "link": "delen"
+      },
+      {
+        "_template": "setup_place",
+        "title": "De Brouwketel",
+        "description": "Samen delen, duurzaam leven, mooie plek, van droom tot realiteit.",
+        "image": "leaf",
+        "link": "delen"
+      },
+      {
+        "_template": "setup_place",
+        "title": "Nieuw Sion",
+        "description": "Een oude mooie plek vernieuwen, samen bidden, new monasticism.",
+        "image": "leaf",
+        "link": "delen"
       }
     ]
   }
