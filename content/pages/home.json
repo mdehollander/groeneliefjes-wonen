@@ -44,28 +44,28 @@
         "_template": "setup_place",
         "title": "Dorothy Gemeenschap",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "image": "hand-holding-heart",
+        "image": "/img/noelhuis.png",
         "link": "https://www.dorothygemeenschap.nl"
       },
       {
         "_template": "setup_place",
         "title": "Jeannette Noëlhuis",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "image": "noelhuis.png",
+        "image": "/img/noelhuis.png",
         "link": "#bidden"
       },
       {
         "_template": "setup_place",
         "title": "De Wonne",
         "description": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "image": "leaf",
+        "image": "/img/noelhuis.png",
         "link": "#natuur"
       },
       {
         "_template": "setup_place",
         "title": "Radicale gastvrijheid",
         "description": "Blue bottle crucifix viost-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.",
-        "image": "users",
+        "image": "/img/noelhuis.png",
         "link": "#gastvrijheid"
       }
     ]
