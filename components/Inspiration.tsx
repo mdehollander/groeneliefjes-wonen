@@ -6,6 +6,7 @@ import {
   InlineText,
   InlineTextarea,
   InlineBlocks,
+  InlineImage,
   BlockTextarea,
   BlocksControls,
 } from "react-tinacms-inline"
