@@ -44,50 +44,50 @@
         "_template": "setup_place",
         "title": "Dorothy Gemeenschap",
         "description": "Catholic workers, buiten de stad, gemeenschap, (droom voor) radicale gastvrijheid, vrienden, samen bidden, duurzaamheid, actie voeren, van droom tot realiteit.",
-        "image": "/img/noelhuis.png",
+        "image": "/img/catholic_worker.png",
         "link": "https://www.dorothygemeenschap.nl"
       },
       {
         "_template": "setup_place",
         "title": "Jeannette Noëlhuis",
         "description": "Catholic workers, ongedocumenteerde vluchtelingen, gemeenschap, samen bidden, actie voeren, vrienden.",
-        "image": "/img/noelhuis.png",
-        "link": "#bidden"
+        "image": "/img/catholic_worker.png",
+        "link": "https://www.noelhuis.nl"
       },
       {
         "_template": "setup_place",
         "title": "De Wonne",
         "description": "Radicale gastvrijheid, samen bidden, fijn huis, klaarstaan voor mensen op straat, gemeenschap.",
-        "image": "/img/noelhuis.png",
-        "link": "#natuur"
+        "image": "/img/wonne.jpg",
+        "link": "https://dewonne.wordpress.com/"
       },
       {
         "_template": "setup_place",
         "title": "Iewan",
         "description": "Duurzame bouw, samen delen, van droom tot realiteit, mooie gebouw.",
-        "image": "/img/noelhuis.png",
-        "link": "#gastvrijheid"
+        "image": "/img/iewan.jpg",
+        "link": "https://www.iewan.nl/"
       },
       {
         "_template": "setup_place",
         "title": "Arneco",
         "description": "Van droom tot realiteit, mooie plek, duurzaam.",
-        "image": "/img/noelhuis.png",
-        "link": "delen"
+        "image": "/img/arneco.png",
+        "link": "https://arneco.org/"
       },
       {
         "_template": "setup_place",
         "title": "De Brouwketel",
         "description": "Samen delen, duurzaam leven, mooie plek, van droom tot realiteit.",
-        "image": "/img/noelhuis.png",
-        "link": "delen"
+        "image": "/img/brouwketel.png",
+        "link": "https://landgoeddebrouwketel.nl/"
       },
       {
         "_template": "setup_place",
         "title": "Nieuw Sion",
         "description": "Een oude mooie plek vernieuwen, samen bidden, new monasticism.",
-        "image": "/img/noelhuis.png",
-        "link": "delen"
+        "image": "/img/nieuwsion.png",
+        "link": "https://www.nieuwsion.nl/"
       }
     ]
   }
