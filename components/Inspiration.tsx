@@ -84,7 +84,7 @@ function SetupInspiration({ data, index }:any) {
         </div>
         */}
         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <a className="h-full flex items-center border-gray-200 border p-4 rounded-lg" href={data.link}>
+          <a className="h-full flex items-center border-gray-200 border p-4 rounded-lg" href={data.link} target="_blank">
             <img alt="place" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={data.image} />
             <div className="flex-grow">
               <h2 className="text-gray-900 title-font font-medium">
