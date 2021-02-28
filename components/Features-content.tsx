@@ -5,9 +5,6 @@ import Image from 'next/image'
 import {
   InlineText,
   InlineTextarea,
-  InlineBlocks,
-  BlockTextarea,
-  BlocksControls,
 } from "react-tinacms-inline"
 
 export default function Features_content() {
