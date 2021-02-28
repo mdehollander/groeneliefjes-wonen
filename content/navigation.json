@@ -12,6 +12,12 @@
     "external": false
   },
   {
+    "id": "overons",
+    "label": "Over ons",
+    "href": "#overons",
+    "external": false
+  },
+  {
     "id": "inspiratie",
     "label": "Inspiratie",
     "href": "#inspiratie",

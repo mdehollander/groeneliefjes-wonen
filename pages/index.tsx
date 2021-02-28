@@ -15,6 +15,7 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import Hero from "../components/Hero"
+import About from "../components/About"
 import Features_content from '../components/Features-content'
 import Inspiration from '../components/Inspiration'
 import Testimonial from '../components/Testimonial'
@@ -38,10 +39,11 @@ export default function Home (props: any) {
             <InlineForm form={form}>
                 <DefaultSeo titleTemplate={pageData.title + ' | %s'} />
                 <Hero {...pageData} />
-                <Kernwaarden />
+                {/*<Kernwaarden />*/}
                 <Features_content />
+                <About />
                 <Inspiration />
-                <Testimonial />
+                {/*<Testimonial />*/}
                 <Contact />
                 <Footer />
             </InlineForm>
