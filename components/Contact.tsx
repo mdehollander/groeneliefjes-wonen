@@ -19,7 +19,7 @@ export default function Contact() {
             <div
                 className="flex flex-col lg:flex-row lg:w-7/12 xl:w-7/12 xl:flex-row justify-center items-center w-11/12 h-32 rounded-md bg-green-500">
                 <div className="flex flex-col p-2 lg:p-4 xl:p-4">
-                    <h3 className="text-2xl font-extrabold text-white">Wil je iets met ons iets  of in contact komen?</h3>
+                    <h3 className="text-2xl font-extrabold text-white">Wil je iets met ons delen of in contact komen?</h3>
                 </div>
                 <div className="flex p-2 lg:p-4 xl:p-4">
                 <a href="" className="mailgo" data-address="mattiasenwilma" data-domain="groeneliefjes.nl">
